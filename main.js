@@ -21,7 +21,7 @@ function createWindow () {
   })
 
   mainWindow.setBrowserView(mainView)
-  mainWindow.fullScreen(true);
+  mainWindow.setFullScreen(true);
   mainWindow.setAlwaysOnTop(true);
   mainWindow.setBounds({ x: 0, y: 0, width: 1920, height: 1080 })
   mainWindow.webContents.loadURL('http://localhost:8181')
